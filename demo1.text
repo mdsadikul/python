@@ -1,0 +1,10 @@
+{
+    "Name": "Sadik",
+    "Roll": 3,
+    "Marks": 80,
+    "Course": [
+        "Python",
+        "Django",
+        "React"
+    ]
+}
