@@ -1,0 +1,32 @@
+class Family:
+
+    Husband = "Rabbil Hasan"
+    _Son = "Salif Hasan"
+    __Wife = "Sumaiya Khanom"
+
+    # আমার বাসা
+    def fun1(self):
+        print(self.Husband)
+        print(self._Son)
+        print(self.__Wife)
+
+
+
+class RelativeFamily(Family):
+    #আত্মীয় বাসা
+    def fun2(self):
+        print(self.Husband)
+        print(self._Son)
+
+
+
+# পথে ঘাটে
+OBJ = Family()
+print(OBJ.Husband)
+print(OBJ._Son)
+#print(OBJ.__Wife) not accessable
+
+OBJ.fun1()
+
+obj = RelativeFamily()
+obj.fun2()
